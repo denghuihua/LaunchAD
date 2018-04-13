@@ -27,6 +27,8 @@ fileManager 创建file中的dir文件不存在，file将创建不成功
 知识点： windowLevel 与 keyWindow的关系
 level级别顺序，与makeKeyAndVisble顺序有关系
  如：
+ 
+ 、、、
  A.windowLevel > B.windowLevel 或 A.windowLevel == B.windowLevel
  [A makeKeyAndVisble];
  [B makeKeyAndVisble];
@@ -36,3 +38,4 @@ level级别顺序，与makeKeyAndVisble顺序有关系
  [A makeKeyAndVisble];
  [B makeKeyAndVisble];
  Bwindow不显示
+ 、、、
